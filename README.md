@@ -9,3 +9,4 @@
 - Node.js, npm
 - Ripgrep, fd, fzf, eza
 - Curl, GNU Tar
+- Rust, cargo

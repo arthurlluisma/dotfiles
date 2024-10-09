@@ -129,6 +129,7 @@ return {
 					"lua_ls",
 					"pyright",
 					"clangd",
+					"asm_lsp",
 				},
 			})
 

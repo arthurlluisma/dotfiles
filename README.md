@@ -6,8 +6,9 @@
 - Nerd font
 - Kitty
 - Neovim
-- Zsh, oh-my-zsh
-- Node.js, npm
-- Ripgrep, fd, fzf
-- Curl, GNU Tar
-- Rust, cargo
+- zsh, oh-my-zsh
+- fzf
+- Python, node.js, npm, rust, cargo, zip, unzip for mason packages
+- curl, GNU Tar for mason
+- ripgrep, fd for Telescope
+- wl-clipboard for Neovim clipboard (Wayland)

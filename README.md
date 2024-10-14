@@ -1,12 +1,13 @@
-# My dotfiles
+# Dotfiles
 
 ## Requirements
-- Arch Linux (KDE Plasma)
+- Arch Linux
 - Catppuccin
-- Nerd font (RobotoMono Nerd Font)
+- Nerd font
 - Kitty
 - Neovim
+- Zsh, oh-my-zsh
 - Node.js, npm
-- Ripgrep, fd, fzf, eza
+- Ripgrep, fd, fzf
 - Curl, GNU Tar
 - Rust, cargo

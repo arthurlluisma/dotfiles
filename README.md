@@ -1,12 +1,14 @@
-# My dotfiles
+# Dotfiles
 
 ## Requirements
-- Arch Linux (KDE Plasma)
+- Arch Linux
 - Catppuccin
-- Nerd font (RobotoMono Nerd Font)
+- Nerd font
 - Kitty
 - Neovim
-- Node.js, npm
-- Ripgrep, fd, fzf, eza
-- Curl, GNU Tar
-- Rust, cargo
+- zsh, oh-my-zsh
+- `fzf`
+- Node.js, `python`, `npm`, `rust`, `zip`, `unzip` for mason packages
+- `curl`, GNU Tar for mason
+- `ripgrep`, `fd` for Telescope
+- `wl-clipboard` for Neovim clipboard (Wayland)

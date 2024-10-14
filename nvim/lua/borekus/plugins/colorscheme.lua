@@ -1,9 +1,9 @@
 return {
-  -- TODO: Test
 	"catppuccin/nvim",
 	config = function()
 		require("catppuccin").setup({
 			integrations = {
+        cmp = true,
 				harpoon = true,
 				mason = true,
 				native_lsp = { enabled = true },

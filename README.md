@@ -7,8 +7,8 @@
 - Kitty
 - Neovim
 - zsh, oh-my-zsh
-- fzf
-- Python, node.js, npm, rust, cargo, zip, unzip for mason packages
-- curl, GNU Tar for mason
-- ripgrep, fd for Telescope
-- wl-clipboard for Neovim clipboard (Wayland)
+- `fzf`
+- Node.js, `python`, `npm`, `rust`, `zip`, `unzip` for mason packages
+- `curl`, GNU Tar for mason
+- `ripgrep`, `fd` for Telescope
+- `wl-clipboard` for Neovim clipboard (Wayland)

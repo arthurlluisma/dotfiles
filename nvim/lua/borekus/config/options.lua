@@ -2,6 +2,9 @@
 vim.opt.relativenumber = true
 vim.opt.number = true
 
+-- hide built-in diagnostics
+vim.diagnostic.config({ virtual_text = false })
+
 -- tabs & indentation
 vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
@@ -44,21 +47,6 @@ vim.opt.backspace = "indent,eol,start"
 
 -- clipboard
 vim.opt.clipboard = "unnamed,unnamedplus"
-
-if vim.fn.has("wsl") == 1 then
-	vim.g.clipboard = {
-		name = "WslClipboard",
-		copy = {
-			["+"] = "clip.exe",
-			["*"] = "clip.exe",
-		},
-		paste = {
-			["+"] = 'powershell.exe -c [Console]::Out.Write($(Get-Clipboard -Raw).tostring().replace("`r", ""))',
-			["*"] = 'powershell.exe -c [Console]::Out.Write($(Get-Clipboard -Raw).tostring().replace("`r", ""))',
-		},
-		cache_enabled = 0,
-	}
-end
 
 -- scrolloff
 vim.opt.scrolloff = 8

@@ -42,6 +42,7 @@ return {
 				"vimdoc",
 				"cpp",
 				"python",
+				"asm",
 			},
 			incremental_selection = {
 				enable = true,

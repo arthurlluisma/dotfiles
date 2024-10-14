@@ -125,7 +125,7 @@ return {
 					"emmet_ls",
 					"cssls",
 					"tailwindcss",
-					"eslint",
+					"ts_ls",
 					"lua_ls",
 					"pyright",
 					"clangd",

@@ -1,2 +1,2 @@
-require("borekus.core")
+require("borekus.config")
 require("borekus.lazy")

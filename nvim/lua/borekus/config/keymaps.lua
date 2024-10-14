@@ -1,5 +1,8 @@
 vim.g.mapleader = " "
 
+-- explorer
+vim.keymap.set("n", "<leader>e", vim.cmd.Ex, { desc = "Open file explorer" })
+
 -- change :w and :q keymaps
 vim.keymap.set("n", "<leader>w", "<cmd>:w<CR>", { desc = "Save File" })
 vim.keymap.set("n", "<leader>q", "<cmd>:q<CR>", { desc = "Quit Neovim" })

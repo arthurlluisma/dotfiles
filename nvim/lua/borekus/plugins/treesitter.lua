@@ -31,6 +31,7 @@ return {
 				"yaml",
 				"toml",
 				"html",
+        "htmldjango",
 				"css",
 				"markdown",
 				"markdown_inline",

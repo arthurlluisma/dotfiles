@@ -72,11 +72,21 @@ return {
 						capabilities = capabilities,
 					})
 				end,
+				["html"] = function()
+					lspconfig["html"].setup({
+						capabilities = capabilities,
+						filetypes = {
+							"html",
+							"htmldjango",
+						},
+					})
+				end,
 				["emmet_ls"] = function()
 					lspconfig["emmet_ls"].setup({
 						capabilities = capabilities,
 						filetypes = {
 							"html",
+							"htmldjango",
 							"typescriptreact",
 							"javascriptreact",
 							"css",
